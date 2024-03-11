@@ -4,7 +4,6 @@ import matplotlib.pyplot as plt
 def load_data(filename):
     #Its output sequence 
     #Observation Sequence
-    # Read the content of the file
     with open(filename, 'r') as file:
         content = file.read()
     # Convert each lowercase alphabet and space to its numeric value
@@ -22,20 +21,47 @@ def get_init_prob_2states():
     Initial = np.array([0.5, 0.5])
     #its Hidden
     #Transition
-    Transition_p = np.array([[0.49, 0.51], [0.51, 0.49]])
+    # Transition_p = np.array([[0.49, 0.51], [0.51, 0.49]])
+    # # print(Transition_p)
+    # # print(Transition_p.shape)
+    # #its Observation
+    # #Emission
+    # Emission_q = np.zeros((2, 27))
+    # Emission_q[0,0:13] = 0.0370
+    # Emission_q[1,0:12] = 0.0371
+    # Emission_q[0,13:26] = 0.0371
+    # Emission_q[1,13:26] = 0.0370
+    # Emission_q[0,26] = 0.0367
+    # Emission_q[1,26] = 0.0367
+
+    Transition_p = np.array([[0.5, 0.5], [0.5, 0.5]])
     # print(Transition_p)
     # print(Transition_p.shape)
     #its Observation
     #Emission
     Emission_q = np.zeros((2, 27))
+    Emission_q[:,:] = 1/27
+    
+    # print(Emission_q)
+    # print(Emission_q.shape)
+    return Initial, Transition_p, Emission_q
+
+def get_init_prob_4states():
+    Initial = np.array([0.5, 0.5, 0.5, 0.5])
+    Transition_p = np.array([[0.24, 0.26, 0.24, 0.26], [0.26, 0.24, 0.26, 0.24], [0.26, 0.26, 0.24, 0.24], [0.24, 0.24, 0.26, 0.26]])
+    Emission_q = np.zeros((4, 27))
     Emission_q[0,0:13] = 0.0370
     Emission_q[1,0:12] = 0.0371
     Emission_q[0,13:26] = 0.0371
     Emission_q[1,13:26] = 0.0370
     Emission_q[0,26] = 0.0367
     Emission_q[1,26] = 0.0367
-    # print(Emission_q)
-    # print(Emission_q.shape)
+    Emission_q[2,0:13] = 0.0370
+    Emission_q[3,0:12] = 0.0371
+    Emission_q[2,13:26] = 0.0371
+    Emission_q[3,13:26] = 0.0370
+    Emission_q[2,26] = 0.0367
+    Emission_q[3,26] = 0.0367
     return Initial, Transition_p, Emission_q
 
 class HMM():
@@ -75,6 +101,10 @@ class HMM():
             beta[:, i] = beta[:, i] / norm[i+1]
         return beta
     
+    def log_likelihood(self, sequence):
+        alpha, norm = self.forward(sequence)
+        return np.sum(np.log(norm))/len(sequence)
+    
     def Baum_Welch(self, iteration, train, test):
         interation = []
         train_log_likelihood = []
@@ -88,8 +118,8 @@ class HMM():
             train_log_likelihood.append(self.log_likelihood(train))
             test_log_likelihood.append(self.log_likelihood(test))
 
-            print("iteration",i,"--",train_log_likelihood[i])
-            print("iteration",i,"--",test_log_likelihood[i])
+            print("iteration train ",i,":",train_log_likelihood[i])
+            print("iteration test  ",i,":",test_log_likelihood[i])
 
             counts = np.zeros((self.N, self.N))
             for i in range(len(train)-1):
@@ -97,7 +127,7 @@ class HMM():
                     for yi_1 in range(self.N):
                         counts[yi, yi_1] += alpha[yi, i] * self.Transition[yi, yi_1] * self.Emission[yi_1, train[i+1]] * beta[yi_1, i+1] / norm[i+1]
             
-            print("counts",counts)
+            #print("counts",counts)
             #M-step
             for yi in range(self.N):
                 for yi_1 in range(self.N):
@@ -116,15 +146,13 @@ class HMM():
         
         return interation, train_log_likelihood, test_log_likelihood
 
-    def log_likelihood(self, sequence):
-        alpha, norm = self.forward(sequence)
-        return np.sum(np.log(norm))/len(sequence)
             
 def main():
     iteration = 600
     train = load_data("textA.txt")
     test = load_data("textB.txt")
     Initial, Transition, Emission = get_init_prob_2states() 
+    #Initial, Transition, Emission = get_init_prob_4states() 
     hmm = HMM(Initial, Transition, Emission)
     # alpha, norm = hmm.forward(train)
     # print("alpha size",alpha.shape)
@@ -136,22 +164,17 @@ def main():
     # print("iter",iter)
     # print("train_log_likelihood",train_log_likelihood)
     # print("test_log_likelihood",test_log_likelihood)
-    # Plotting
-    plt.figure(figsize=(10, 6))
-
     # Plot both training and testing log-likelihoods in the same plot
+    plt.figure(figsize=(10, 6))
     plt.plot(iterations, train_ll, label='Training Log-Likelihood')
     plt.plot(iterations, test_ll, label='Testing Log-Likelihood')
-
     plt.title('Training and Testing Log-Likelihood vs Iteration')
     plt.xlabel('Iteration')
     plt.ylabel('Log-Likelihood')
     plt.legend()
     plt.grid(True)
-
     # Save the figure
     plt.savefig('hmm_training_plot.png')
-
     # Display the plot
     # plt.show()
 
