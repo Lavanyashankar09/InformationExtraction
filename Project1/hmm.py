@@ -121,7 +121,7 @@ class HMM():
         return np.sum(np.log(norm))/len(sequence)
             
 def main():
-    iteration = 1
+    iteration = 600
     train = load_data("textA.txt")
     test = load_data("textB.txt")
     Initial, Transition, Emission = get_init_prob_2states() 
