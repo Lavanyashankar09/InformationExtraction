@@ -200,6 +200,7 @@ class HMM:
         beta[:,-1] = 1
         #Induction
         for i in range(len(Obs_seq_y)-2, -1, -1):
+            #print(len(Obs_seq_y)-2)
             for yi in range(self.num_states):
                 for yi_1 in range(self.num_states):
                     beta[yi, i] += beta[yi_1, i+1] * self.transitions[yi, yi_1] * self.emissions[yi_1, Obs_seq_y[i+1]]
@@ -246,7 +247,7 @@ class HMM:
             # print(self.transitions)
             # print(self.emissions)
             # Transition probability evaluation
-            #E-step
+            
             counts = np.zeros((self.num_states, self.num_states))
             for i in range(len(train_data)-1):
                 for yi in range(self.num_states):
@@ -254,12 +255,12 @@ class HMM:
                         counts[yi, yi_1] += alpha[yi, i] * self.transitions[yi, yi_1] * self.emissions[yi_1, train_data[i+1]] * beta[yi_1, i+1] / norm[i+1]
             
             #print("counts",counts)
-            #M-step
+            
             for yi in range(self.num_states):
                 for yi_1 in range(self.num_states):
                     self.transitions[yi, yi_1] = counts[yi, yi_1] / np.sum(counts[yi, :])
             
-            # Parameter Estimation
+            
             gamma = np.multiply(alpha, beta) 
             # print("gamma",gamma)
             # print("gamma shape",gamma.shape)
@@ -314,7 +315,7 @@ def main():
     n_states = 4
     n_outputs = 27
     train_file, test_file = "textA.txt", "textB.txt"
-    max_iter = 600
+    max_iter = 2
     # define initial transition probability and emission probability
     #T_prob, E_prob = get_init_prob_2states() 
     T_prob, E_prob = get_init_prob_4states() 
