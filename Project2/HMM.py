@@ -1,14 +1,11 @@
 # Project1 for EN.520.666 Information Extraction
-
 # 2021 Ruizhe Huang
 
 import numpy as np
 from scipy.special import logsumexp
 from collections import defaultdict
-
 import warnings
 warnings.filterwarnings("ignore")
-
 
 class HMM:
 
@@ -31,6 +28,12 @@ class HMM:
         self.output_arc_counts = None
         self.output_arc_counts_null = None
 
+    def __str__(self):
+        transition_str = "Transition Probabilities:\n" + str(self.transitions) + "\n"
+        emission_str = "Emission Probabilities:\n" + str(self.emissions) + "\n"
+        null_arc_str = "Null Arcs:\n" + str(self.null_arcs) + "\n"
+        return transition_str + emission_str + null_arc_str
+    
     def init_transition_probs(self, transitions):
         """Initialize transition probability matrices"""
         assert self.transitions is None
@@ -57,8 +60,8 @@ class HMM:
         # topo sort
         count = np.zeros(self.num_states)
 
-        print("count",count)
-        print("len of count",len(count))
+        # print("count",count)
+        # print("len of count",len(count))
         # print("self.null_arcs.keys()---------",self.null_arcs.keys())
         # print("self.null_arcs.values()--------",self.null_arcs.values())
         # print("first element of self.null_arcs.values()--------",list(self.null_arcs.values())[0])
@@ -72,14 +75,14 @@ class HMM:
                 
                 if iy < self.num_states:
                     count[iy] += 1
-                    print("count[iy]",count[iy])
-                    print("iy",iy)
+        #             print("count[iy]",count[iy])
+        #             print("iy",iy)
 
-        print("count",count)
+        # print("count",count)
 
         stack = [s for s in self.states if count[s] == 0]
-        print("stack",stack)
-        print("type(stack)",type(stack))
+        # print("stack",stack)
+        # print("type(stack)",type(stack))
         while len(stack) > 0:
             s = stack.pop()
             self.topo_order.append(s)
@@ -387,20 +390,13 @@ if __name__ == "__main__":
     # HW3 as test case
     h = HMM(num_states=3, num_outputs=2)
     h.init_transition_probs(np.asarray([[1.0/2, 1.0/6, 1.0/6], [0, 0, 1.0/3], [3.0/4, 1.0/4, 0]], dtype=np.float64))
-
     emission_init_matrix = [[[1, 0.5, 1], [0, 0, 1.0/3], [0, 0, 0]], [[0, 0.5, 0], [1, 1, 2.0/3], [1, 1, 1]]]
-    print("shape of emission_init_matrix",np.asarray(emission_init_matrix).shape)
+    #print("shape of emission_init_matrix",np.asarray(emission_init_matrix).shape)
     h.init_emission_probs(np.asarray(emission_init_matrix, dtype=np.float64))
     #print(np.asarray(emission_init_matrix))
-    null_arcs = defaultdict(dict)
-    null_arcs[0][2] = 1.0 / 6
-    null_arcs[1][0] = 1.0 / 3
-    null_arcs[1][2] = 1.0 / 3
-    h.init_null_arcs(null_arcs)
-
-   
+    R
+    print(str(h))
     h.forward_backward([0, 1, 1, 0], init_prob=np.asarray([1, 0, 0]), update_params=False)
-
     log_likelihood = h.compute_log_likelihood([0, 1, 1, 0], init_prob=np.asarray([1, 0, 0]), init_beta=np.asarray([1, 1, 1]))
     print("log_likelihood", log_likelihood)
     #print("transitions", h.transitions)
