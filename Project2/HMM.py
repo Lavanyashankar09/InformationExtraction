@@ -394,11 +394,10 @@ if __name__ == "__main__":
     #print("shape of emission_init_matrix",np.asarray(emission_init_matrix).shape)
     h.init_emission_probs(np.asarray(emission_init_matrix, dtype=np.float64))
     #print(np.asarray(emission_init_matrix))
-    R
-    print(str(h))
+    #print(str(h))
     h.forward_backward([0, 1, 1, 0], init_prob=np.asarray([1, 0, 0]), update_params=False)
     log_likelihood = h.compute_log_likelihood([0, 1, 1, 0], init_prob=np.asarray([1, 0, 0]), init_beta=np.asarray([1, 1, 1]))
-    print("log_likelihood", log_likelihood)
+    #print("log_likelihood", log_likelihood)
     #print("transitions", h.transitions)
     #print("null_arcs", h.null_arcs)
     #print("emissions", h.emissions)
