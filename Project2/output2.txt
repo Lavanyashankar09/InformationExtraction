@@ -1,0 +1,378 @@
+reading file: data/clsp.lblnames
+256 lines, done
+reading file: data/clsp.trnlbls
+798 lines, done
+reading file: data/clsp.endpts
+798 lines, done
+reading file: data/clsp.trnscr
+798 lines, done
+reading file: data/clsp.devlbls
+393 lines, done
+---- echo: 0 ----
+log_likelihood = -564019.6755373772 per_frame_log_likelihood = -5.281824933627169
+Saved to: data/0.mdl.pkl
+Predicted Words:  ['table', 'about', 'about', 'about', 'after', 'after', 'after', 'extra', 'after', 'after', 'after', 'after', 'after', 'study', 'oily', 'oily', 'also', 'oily', 'only', 'oily', 'along', 'oily', 'oily', 'along', 'oily', 'enjoy', 'also', 'also', 'study', 'also', 'away', 'always', 'always', 'always', 'also', 'always', 'always', 'always', 'away', 'other', 'only', 'another', 'around', 'away', 'away', 'away', 'away', 'always', 'become', 'become', 'become', 'become', 'before', 'before', 'before', 'after', 'before', 'before', 'before', 'brother', 'brother', 'brother', 'other', 'children', 'carry', 'carry', 'carry', 'children', 'children', 'children', 'children', 'order', 'dinner', 'money', 'dinner', 'dinner', 'dinner', 'eating', 'eating', 'many', 'enjoy', 'enjoy', 'enjoy', 'about', 'enough', 'into', 'extra', 'only', 'enough', 'enough', 'about', 'enough', 'about', 'even', 'after', 'even', 'even', 'very', 'into', 'very', 'very', 'very', 'very', 'very', 'very', 'extra', 'extra', 'forces', 'forces', 'forces', 'government', 'become', 'even', 'greasy', 'greasy', 'greasy', 'greasy', 'greasy', 'into', 'many', 'only', 'study', 'into', 'into', 'money', 'many', 'many', 'many', 'many', 'many', 'many', 'many', 'many', 'many', 'money', 'many', 'many', 'only', 'money', 'many', 'morning', 'morning', 'many', 'order', 'money', 'very', 'never', 'over', 'never', 'often', 'before', 'often', 'often', 'often', 'often', 'oily', 'oily', 'away', 'only', 'only', 'enjoy', 'oily', 'oily', 'oily', 'oily', 'only', 'oily', 'oily', 'oily', 'oily', 'away', 'oily', 'oily', 'only', 'open', 'open', 'open', 'often', 'order', 'after', 'order', 'study', 'other', 'other', 'over', 'over', 'oily', 'over', 'away', 'oily', 'over', 'people', 'problem', 'open', 'open', 'people', 'problem', 'problem', 'problem', 'problem', 'problem', 'several', 'several', 'study', 'several', 'shellfish', 'shellfish', 'shellfish', 'shellfish', 'sometimes', 'sometimes', 'study', 'sometimes', 'study', 'system', 'system', 'system', 'study', 'system', 'table', 'table', 'table', 'table', 'table', 'very', 'very', 'very', 'very', 'water', 'water', 'water', 'water', 'without', 'study', 'table', 'without', 'without', 'without', 'water']
+Actual Words:  ['about', 'about', 'about', 'about', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'allow', 'allow', 'allow', 'allow', 'allow', 'along', 'along', 'along', 'along', 'along', 'along', 'along', 'also', 'also', 'also', 'also', 'always', 'always', 'always', 'always', 'always', 'always', 'always', 'always', 'always', 'another', 'another', 'another', 'around', 'away', 'away', 'away', 'away', 'away', 'become', 'become', 'become', 'become', 'before', 'before', 'before', 'before', 'before', 'before', 'before', 'brother', 'brother', 'brother', 'brother', 'carry', 'carry', 'carry', 'carry', 'children', 'children', 'children', 'children', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'eating', 'eating', 'eating', 'enjoy', 'enjoy', 'enjoy', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'even', 'even', 'even', 'even', 'even', 'even', 'every', 'every', 'every', 'every', 'every', 'every', 'extra', 'extra', 'forces', 'forces', 'forces', 'government', 'government', 'government', 'greasy', 'greasy', 'greasy', 'greasy', 'greasy', 'into', 'into', 'into', 'into', 'into', 'into', 'into', 'many', 'many', 'many', 'many', 'many', 'many', 'many', 'money', 'money', 'money', 'money', 'money', 'money', 'money', 'money', 'morning', 'morning', 'morning', 'morning', 'never', 'never', 'never', 'never', 'never', 'often', 'often', 'often', 'often', 'often', 'often', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'open', 'open', 'open', 'order', 'order', 'order', 'order', 'other', 'other', 'other', 'over', 'over', 'over', 'over', 'over', 'over', 'over', 'people', 'people', 'people', 'people', 'people', 'problem', 'problem', 'problem', 'problem', 'problem', 'several', 'several', 'several', 'several', 'shellfish', 'shellfish', 'shellfish', 'shellfish', 'sometimes', 'sometimes', 'sometimes', 'sometimes', 'study', 'system', 'system', 'system', 'system', 'system', 'table', 'table', 'table', 'table', 'table', 'very', 'very', 'very', 'very', 'water', 'water', 'water', 'water', 'without', 'without', 'without', 'without', 'without', 'without', 'without']
+Confidence:  [0.70461484 0.99999989 0.99952878 0.99999999 0.91056834 0.9406937
+ 0.71398805 0.95443033 0.54018237 0.94919526 0.98767605 0.87128025
+ 0.97623972 0.99877619 0.92119461 0.76627286 0.85600012 0.97359794
+ 0.78301542 0.97486937 0.99999991 0.80607571 0.90796714 0.9997765
+ 0.99271368 0.52582554 0.99983788 0.99999527 0.79743446 0.99995908
+ 0.66326633 0.76696343 0.99109342 0.99714812 0.91317525 0.99943832
+ 0.98754361 0.9999738  0.99458286 0.76962772 0.99931532 0.98426128
+ 0.99981857 0.99996782 0.99995226 0.99895883 0.99993355 0.9391987
+ 0.99999988 0.99994218 0.99999357 1.         0.9934599  0.59222987
+ 0.99919838 0.89931347 0.93472165 0.9967746  0.99548717 0.99038058
+ 0.99226426 0.99999764 0.49861705 0.99009337 1.         1.
+ 1.         1.         0.94869473 0.99999937 1.         0.75403495
+ 0.9874973  0.94297196 0.70133572 0.9753602  0.96990455 0.99309
+ 0.96631047 0.9958509  1.         1.         1.         0.99971222
+ 0.99954863 0.57560927 0.69234257 0.69810658 0.30400707 0.59409898
+ 0.99691717 0.99562435 0.5674907  0.99988945 0.43750885 0.99884892
+ 0.98734286 0.80164743 0.54233817 0.9096665  0.67185416 0.97551612
+ 0.97510806 0.87153713 0.97817816 1.         1.         1.
+ 1.         1.         0.99537448 0.99999707 0.67286949 0.9999975
+ 0.99999993 0.99998091 0.99999992 0.99994974 0.99730171 0.71857136
+ 0.48485056 0.99989251 0.95953098 0.99998966 0.39847991 0.98856475
+ 0.99975106 0.99393166 0.99992176 0.99828494 0.98174281 0.99937493
+ 0.98833045 0.92036642 0.81666425 0.99584451 0.99986045 0.78013045
+ 0.91297022 0.99253288 0.99605473 0.99997445 0.64375102 0.78944838
+ 0.9855105  0.64962944 0.96250934 0.91626043 0.74573629 0.99993687
+ 0.80620974 0.98577453 0.96382419 0.95629155 0.98801322 0.99893281
+ 0.98950584 0.48196223 0.67424698 0.66434849 0.78902145 0.99598828
+ 0.99997041 0.99988173 0.94738587 0.73794382 0.93039001 0.69116803
+ 0.79350495 0.9840644  0.54952914 0.90023502 0.70636929 0.54070802
+ 0.99996102 0.99999224 0.88858091 0.6963865  0.99999196 0.36125462
+ 0.99993577 0.78713924 0.90299299 0.70815553 0.99865878 0.58659157
+ 0.91268279 0.9664991  0.93833778 0.61185125 0.98693552 0.5972433
+ 0.97818154 0.59132332 0.84251707 0.97771962 0.62188214 0.57187198
+ 0.99999527 0.99998251 0.93245498 0.98088029 1.         0.95057519
+ 0.9951432  1.         1.         1.         1.         0.99837922
+ 0.99931698 0.99599018 0.99999863 0.99999998 0.99999999 0.57143435
+ 0.99477273 0.90195784 0.99999751 0.99920666 0.7739269  0.99999954
+ 0.96105689 0.99076532 0.97869709 0.97954274 0.94936933 0.9857766
+ 0.98738823 0.99996453 0.98401798 0.80679316 0.99999617 0.99998695
+ 0.44840649 0.97333547 0.99998581 0.99999939 0.86448038]
+Accuracy:  0.6401673640167364
+---- echo: 1 ----
+log_likelihood = -480113.8098410683 per_frame_log_likelihood = -4.496079129475753
+Saved to: data/1.mdl.pkl
+Predicted Words:  ['about', 'about', 'about', 'about', 'after', 'sometimes', 'after', 'after', 'about', 'after', 'after', 'after', 'after', 'study', 'oily', 'along', 'also', 'along', 'about', 'oily', 'along', 'allow', 'along', 'along', 'oily', 'along', 'also', 'also', 'about', 'also', 'always', 'always', 'always', 'always', 'also', 'always', 'always', 'always', 'away', 'another', 'only', 'another', 'around', 'away', 'away', 'away', 'away', 'carry', 'become', 'become', 'become', 'become', 'before', 'before', 'before', 'before', 'before', 'before', 'before', 'brother', 'brother', 'brother', 'brother', 'children', 'carry', 'carry', 'carry', 'children', 'children', 'children', 'children', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'eating', 'eating', 'many', 'enjoy', 'enjoy', 'enjoy', 'about', 'enough', 'into', 'enough', 'enough', 'enough', 'enough', 'about', 'enough', 'without', 'even', 'over', 'even', 'even', 'very', 'every', 'very', 'carry', 'very', 'very', 'every', 'very', 'extra', 'extra', 'forces', 'forces', 'forces', 'government', 'government', 'government', 'greasy', 'greasy', 'greasy', 'greasy', 'greasy', 'into', 'money', 'many', 'study', 'without', 'into', 'into', 'many', 'many', 'many', 'many', 'many', 'many', 'many', 'many', 'money', 'money', 'many', 'many', 'money', 'money', 'many', 'morning', 'morning', 'money', 'morning', 'money', 'over', 'never', 'over', 'never', 'often', 'before', 'often', 'often', 'often', 'often', 'oily', 'oily', 'always', 'only', 'only', 'carry', 'oily', 'carry', 'oily', 'oily', 'only', 'oily', 'oily', 'oily', 'oily', 'always', 'oily', 'oily', 'only', 'open', 'open', 'open', 'order', 'order', 'order', 'order', 'people', 'other', 'other', 'over', 'over', 'over', 'over', 'away', 'over', 'over', 'people', 'problem', 'people', 'people', 'people', 'problem', 'problem', 'problem', 'problem', 'problem', 'several', 'several', 'several', 'several', 'shellfish', 'shellfish', 'shellfish', 'shellfish', 'sometimes', 'sometimes', 'sometimes', 'sometimes', 'study', 'system', 'sometimes', 'sometimes', 'sometimes', 'system', 'table', 'table', 'table', 'table', 'table', 'very', 'very', 'very', 'very', 'water', 'water', 'water', 'water', 'without', 'without', 'without', 'without', 'without', 'without', 'without']
+Actual Words:  ['about', 'about', 'about', 'about', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'allow', 'allow', 'allow', 'allow', 'allow', 'along', 'along', 'along', 'along', 'along', 'along', 'along', 'also', 'also', 'also', 'also', 'always', 'always', 'always', 'always', 'always', 'always', 'always', 'always', 'always', 'another', 'another', 'another', 'around', 'away', 'away', 'away', 'away', 'away', 'become', 'become', 'become', 'become', 'before', 'before', 'before', 'before', 'before', 'before', 'before', 'brother', 'brother', 'brother', 'brother', 'carry', 'carry', 'carry', 'carry', 'children', 'children', 'children', 'children', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'eating', 'eating', 'eating', 'enjoy', 'enjoy', 'enjoy', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'even', 'even', 'even', 'even', 'even', 'even', 'every', 'every', 'every', 'every', 'every', 'every', 'extra', 'extra', 'forces', 'forces', 'forces', 'government', 'government', 'government', 'greasy', 'greasy', 'greasy', 'greasy', 'greasy', 'into', 'into', 'into', 'into', 'into', 'into', 'into', 'many', 'many', 'many', 'many', 'many', 'many', 'many', 'money', 'money', 'money', 'money', 'money', 'money', 'money', 'money', 'morning', 'morning', 'morning', 'morning', 'never', 'never', 'never', 'never', 'never', 'often', 'often', 'often', 'often', 'often', 'often', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'open', 'open', 'open', 'order', 'order', 'order', 'order', 'other', 'other', 'other', 'over', 'over', 'over', 'over', 'over', 'over', 'over', 'people', 'people', 'people', 'people', 'people', 'problem', 'problem', 'problem', 'problem', 'problem', 'several', 'several', 'several', 'several', 'shellfish', 'shellfish', 'shellfish', 'shellfish', 'sometimes', 'sometimes', 'sometimes', 'sometimes', 'study', 'system', 'system', 'system', 'system', 'system', 'table', 'table', 'table', 'table', 'table', 'very', 'very', 'very', 'very', 'water', 'water', 'water', 'water', 'without', 'without', 'without', 'without', 'without', 'without', 'without']
+Confidence:  [0.66321178 0.99999999 0.99999573 1.         0.99996917 0.97060778
+ 0.95079226 0.99999369 0.70479132 0.92986673 0.99999087 0.97310823
+ 0.99998907 0.6723652  0.82607271 0.9643564  0.99784598 0.71091967
+ 0.77042362 0.80357799 1.         0.95074479 0.99418072 0.99999999
+ 0.81556416 0.84446317 1.         1.         0.99958154 1.
+ 0.84568319 0.99907447 1.         0.99997157 0.99644576 0.99999998
+ 0.99999904 1.         0.99998317 0.9999999  0.99678085 1.
+ 0.99999954 0.99999998 0.99999989 0.9999999  0.99999989 0.99957153
+ 1.         1.         1.         1.         0.99999997 0.99999999
+ 0.99999999 0.99998644 0.9999727  0.99999986 0.99993447 0.99999995
+ 1.         1.         0.99989578 0.52342111 1.         1.
+ 1.         1.         1.         1.         1.         0.57325082
+ 1.         0.97667299 0.9999958  1.         1.         1.
+ 0.99999999 0.99997132 1.         1.         1.         0.81091549
+ 1.         0.99700476 0.99945268 0.6625869  1.         0.99999989
+ 0.9998865  0.99999458 0.98777819 1.         0.3731239  0.99999883
+ 0.99999998 0.57858798 0.59846731 0.9088758  0.92731499 0.96328754
+ 0.98135353 0.74586055 0.97826001 1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         0.99376528 0.58097138
+ 0.42643871 0.97396535 0.96185377 1.         0.87283912 0.99999666
+ 0.99999972 0.99505659 0.99999763 0.99999046 0.99217808 0.99997287
+ 0.96585315 0.99880864 0.99999285 0.66337685 0.99999985 0.97317009
+ 0.9999986  0.94264802 1.         1.         0.99723111 0.87425257
+ 0.99999655 0.79430832 1.         0.96668835 0.9996823  0.99999765
+ 0.99998088 0.99999694 0.99998147 0.99999682 0.99999667 0.99762576
+ 0.99881236 0.99772926 0.50236659 0.98808133 0.9992652  0.99999999
+ 0.99533315 0.99999998 0.86976049 0.99703483 0.95214529 0.9298153
+ 0.6998002  0.98246005 0.73771641 0.82282638 0.50450567 0.9696903
+ 0.99998719 0.99999995 0.99981502 0.85537448 1.         0.99815479
+ 0.99999798 0.99969473 0.9994185  0.99883836 1.         0.99536198
+ 0.90268963 0.99999689 0.9922811  0.51072697 0.99999996 1.
+ 0.60130185 0.99999989 0.98618022 1.         0.99999814 0.9999759
+ 1.         1.         0.9999918  1.         1.         0.96598405
+ 1.         1.         1.         1.         1.         1.
+ 0.99999999 1.         1.         1.         1.         1.
+ 1.         0.9544183  0.90613558 1.         0.99991358 1.
+ 0.99999999 1.         0.97652244 0.96569225 0.99134742 0.99736864
+ 0.99999451 1.         1.         0.99999991 1.         0.99997755
+ 1.         0.9999997  1.         1.         0.99999945]
+Accuracy:  0.7405857740585774
+---- echo: 2 ----
+log_likelihood = -440516.0661481948 per_frame_log_likelihood = -4.1252616579874966
+Saved to: data/2.mdl.pkl
+Predicted Words:  ['about', 'about', 'about', 'about', 'after', 'sometimes', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'oily', 'along', 'along', 'oily', 'about', 'oily', 'along', 'allow', 'along', 'along', 'oily', 'oily', 'also', 'also', 'before', 'also', 'always', 'always', 'always', 'always', 'also', 'always', 'always', 'always', 'always', 'another', 'only', 'another', 'around', 'away', 'away', 'away', 'away', 'always', 'become', 'become', 'become', 'become', 'before', 'before', 'before', 'before', 'before', 'before', 'before', 'brother', 'brother', 'brother', 'brother', 'carry', 'carry', 'carry', 'carry', 'children', 'children', 'children', 'children', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'eating', 'eating', 'many', 'enjoy', 'enjoy', 'enjoy', 'enough', 'enough', 'dinner', 'enough', 'enough', 'enough', 'enough', 'about', 'enough', 'without', 'even', 'every', 'even', 'even', 'even', 'every', 'very', 'carry', 'very', 'very', 'carry', 'very', 'extra', 'extra', 'forces', 'forces', 'forces', 'government', 'government', 'government', 'greasy', 'greasy', 'greasy', 'greasy', 'greasy', 'into', 'money', 'into', 'after', 'into', 'into', 'into', 'many', 'many', 'many', 'many', 'many', 'many', 'many', 'money', 'money', 'money', 'money', 'many', 'money', 'money', 'money', 'morning', 'morning', 'money', 'morning', 'money', 'over', 'never', 'over', 'never', 'often', 'before', 'often', 'often', 'often', 'often', 'oily', 'oily', 'always', 'table', 'oily', 'oily', 'oily', 'oily', 'oily', 'only', 'only', 'oily', 'oily', 'only', 'oily', 'always', 'only', 'only', 'only', 'open', 'open', 'open', 'order', 'order', 'order', 'order', 'people', 'other', 'other', 'over', 'over', 'over', 'over', 'away', 'over', 'over', 'people', 'people', 'people', 'people', 'people', 'problem', 'problem', 'problem', 'problem', 'problem', 'several', 'several', 'several', 'several', 'shellfish', 'shellfish', 'shellfish', 'shellfish', 'sometimes', 'sometimes', 'sometimes', 'sometimes', 'study', 'system', 'sometimes', 'sometimes', 'system', 'system', 'table', 'table', 'table', 'table', 'table', 'very', 'very', 'very', 'very', 'water', 'water', 'water', 'water', 'without', 'without', 'without', 'without', 'without', 'without', 'without']
+Actual Words:  ['about', 'about', 'about', 'about', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'allow', 'allow', 'allow', 'allow', 'allow', 'along', 'along', 'along', 'along', 'along', 'along', 'along', 'also', 'also', 'also', 'also', 'always', 'always', 'always', 'always', 'always', 'always', 'always', 'always', 'always', 'another', 'another', 'another', 'around', 'away', 'away', 'away', 'away', 'away', 'become', 'become', 'become', 'become', 'before', 'before', 'before', 'before', 'before', 'before', 'before', 'brother', 'brother', 'brother', 'brother', 'carry', 'carry', 'carry', 'carry', 'children', 'children', 'children', 'children', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'eating', 'eating', 'eating', 'enjoy', 'enjoy', 'enjoy', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'even', 'even', 'even', 'even', 'even', 'even', 'every', 'every', 'every', 'every', 'every', 'every', 'extra', 'extra', 'forces', 'forces', 'forces', 'government', 'government', 'government', 'greasy', 'greasy', 'greasy', 'greasy', 'greasy', 'into', 'into', 'into', 'into', 'into', 'into', 'into', 'many', 'many', 'many', 'many', 'many', 'many', 'many', 'money', 'money', 'money', 'money', 'money', 'money', 'money', 'money', 'morning', 'morning', 'morning', 'morning', 'never', 'never', 'never', 'never', 'never', 'often', 'often', 'often', 'often', 'often', 'often', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'open', 'open', 'open', 'order', 'order', 'order', 'order', 'other', 'other', 'other', 'over', 'over', 'over', 'over', 'over', 'over', 'over', 'people', 'people', 'people', 'people', 'people', 'problem', 'problem', 'problem', 'problem', 'problem', 'several', 'several', 'several', 'several', 'shellfish', 'shellfish', 'shellfish', 'shellfish', 'sometimes', 'sometimes', 'sometimes', 'sometimes', 'study', 'system', 'system', 'system', 'system', 'system', 'table', 'table', 'table', 'table', 'table', 'very', 'very', 'very', 'very', 'water', 'water', 'water', 'water', 'without', 'without', 'without', 'without', 'without', 'without', 'without']
+Confidence:  [0.92233541 1.         0.99999899 1.         0.99999949 0.91979296
+ 0.97097322 0.99999958 0.69146519 0.85059912 0.99999995 0.99731732
+ 0.99999999 0.99851775 0.71603887 0.65875702 0.74499006 0.7550329
+ 0.83085723 0.84810403 0.99999991 0.99987183 0.99895759 0.99999999
+ 0.98921054 0.58749294 1.         1.         0.62158455 1.
+ 0.94265681 0.98882628 1.         0.99999974 0.99740143 1.
+ 1.         0.99999999 0.99981611 1.         0.99516264 1.
+ 1.         1.         0.99999999 0.9999999  0.9999999  0.91637914
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         0.9999998  0.99999993
+ 1.         1.         0.99999863 1.         1.         1.
+ 1.         1.         1.         1.         1.         0.99932332
+ 1.         0.99996745 1.         1.         1.         1.
+ 1.         0.99998763 1.         1.         1.         0.99995645
+ 1.         0.66076439 0.99999484 0.99978013 1.         1.
+ 0.99744428 1.         0.56359003 1.         0.50492129 0.99999994
+ 1.         0.84042542 0.56253973 0.83386153 0.98080528 0.93103028
+ 0.97357444 0.72712436 0.92910275 1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         0.99987779 0.6369324
+ 0.83994175 0.98212882 0.99863106 1.         0.99895954 1.
+ 0.99999994 0.98787508 0.99999923 0.99998581 0.9945271  0.99996276
+ 0.98109585 0.9999885  0.99999987 0.78529393 0.99995047 0.99953375
+ 0.99999989 0.54353065 1.         1.         0.80055349 0.99428186
+ 0.69922985 0.93349565 1.         0.97658644 0.99999926 1.
+ 0.99999321 0.99999995 0.99999999 0.99999996 0.99999144 0.99972275
+ 0.99978757 0.99990285 0.95930054 0.9560941  0.99999979 0.99995004
+ 0.99999365 1.         0.7032921  0.99832514 0.84520554 0.92976098
+ 0.71095542 0.92975125 0.74900568 0.73342371 0.95990746 0.98041232
+ 0.99999655 0.99999996 0.9999993  0.97763481 1.         0.99954861
+ 1.         0.93585942 0.99996079 0.9998828  1.         0.9998568
+ 0.76966013 0.99999997 0.9460716  0.90509015 1.         1.
+ 0.99999818 1.         0.99988488 1.         1.         0.99998151
+ 1.         1.         1.         1.         1.         0.99999962
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         1.         0.99999993
+ 1.         0.99999997 0.83958216 1.         0.99999991 1.
+ 1.         0.99999956 0.96512776 0.9455235  0.99567199 0.99887996
+ 0.99999999 1.         1.         1.         1.         1.
+ 1.         0.99999995 1.         1.         1.        ]
+Accuracy:  0.8158995815899581
+---- echo: 3 ----
+log_likelihood = -424812.33113377227 per_frame_log_likelihood = -3.9782022862178423
+Saved to: data/3.mdl.pkl
+Predicted Words:  ['about', 'about', 'about', 'about', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'oily', 'oily', 'also', 'oily', 'oily', 'oily', 'along', 'allow', 'along', 'along', 'oily', 'oily', 'also', 'also', 'before', 'also', 'always', 'always', 'always', 'always', 'also', 'always', 'always', 'always', 'always', 'another', 'only', 'another', 'around', 'away', 'away', 'away', 'away', 'always', 'become', 'become', 'become', 'become', 'before', 'before', 'before', 'before', 'before', 'before', 'before', 'brother', 'brother', 'brother', 'brother', 'carry', 'carry', 'carry', 'carry', 'children', 'children', 'children', 'children', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'eating', 'eating', 'many', 'enjoy', 'enjoy', 'enjoy', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'about', 'enough', 'enough', 'even', 'over', 'even', 'even', 'even', 'even', 'very', 'carry', 'very', 'very', 'every', 'very', 'extra', 'extra', 'forces', 'forces', 'forces', 'government', 'government', 'government', 'greasy', 'greasy', 'greasy', 'greasy', 'greasy', 'into', 'money', 'into', 'after', 'into', 'into', 'into', 'many', 'many', 'many', 'many', 'many', 'many', 'many', 'money', 'money', 'money', 'money', 'many', 'money', 'money', 'money', 'morning', 'morning', 'morning', 'morning', 'never', 'over', 'never', 'over', 'never', 'often', 'before', 'often', 'often', 'often', 'often', 'oily', 'oily', 'always', 'table', 'oily', 'oily', 'oily', 'oily', 'oily', 'only', 'only', 'oily', 'oily', 'only', 'oily', 'only', 'only', 'only', 'only', 'open', 'open', 'open', 'order', 'order', 'order', 'order', 'over', 'other', 'other', 'over', 'over', 'over', 'over', 'away', 'over', 'over', 'people', 'people', 'people', 'people', 'people', 'problem', 'problem', 'problem', 'problem', 'problem', 'several', 'several', 'several', 'several', 'shellfish', 'shellfish', 'shellfish', 'shellfish', 'sometimes', 'sometimes', 'sometimes', 'sometimes', 'study', 'system', 'system', 'sometimes', 'system', 'system', 'table', 'table', 'table', 'table', 'table', 'very', 'very', 'very', 'very', 'water', 'water', 'water', 'water', 'without', 'without', 'without', 'without', 'without', 'without', 'without']
+Actual Words:  ['about', 'about', 'about', 'about', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'allow', 'allow', 'allow', 'allow', 'allow', 'along', 'along', 'along', 'along', 'along', 'along', 'along', 'also', 'also', 'also', 'also', 'always', 'always', 'always', 'always', 'always', 'always', 'always', 'always', 'always', 'another', 'another', 'another', 'around', 'away', 'away', 'away', 'away', 'away', 'become', 'become', 'become', 'become', 'before', 'before', 'before', 'before', 'before', 'before', 'before', 'brother', 'brother', 'brother', 'brother', 'carry', 'carry', 'carry', 'carry', 'children', 'children', 'children', 'children', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'eating', 'eating', 'eating', 'enjoy', 'enjoy', 'enjoy', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'even', 'even', 'even', 'even', 'even', 'even', 'every', 'every', 'every', 'every', 'every', 'every', 'extra', 'extra', 'forces', 'forces', 'forces', 'government', 'government', 'government', 'greasy', 'greasy', 'greasy', 'greasy', 'greasy', 'into', 'into', 'into', 'into', 'into', 'into', 'into', 'many', 'many', 'many', 'many', 'many', 'many', 'many', 'money', 'money', 'money', 'money', 'money', 'money', 'money', 'money', 'morning', 'morning', 'morning', 'morning', 'never', 'never', 'never', 'never', 'never', 'often', 'often', 'often', 'often', 'often', 'often', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'open', 'open', 'open', 'order', 'order', 'order', 'order', 'other', 'other', 'other', 'over', 'over', 'over', 'over', 'over', 'over', 'over', 'people', 'people', 'people', 'people', 'people', 'problem', 'problem', 'problem', 'problem', 'problem', 'several', 'several', 'several', 'several', 'shellfish', 'shellfish', 'shellfish', 'shellfish', 'sometimes', 'sometimes', 'sometimes', 'sometimes', 'study', 'system', 'system', 'system', 'system', 'system', 'table', 'table', 'table', 'table', 'table', 'very', 'very', 'very', 'very', 'water', 'water', 'water', 'water', 'without', 'without', 'without', 'without', 'without', 'without', 'without']
+Confidence:  [0.97357773 1.         0.9999997  1.         0.99999997 0.9999909
+ 0.97338499 0.99999989 0.66792327 0.95154769 1.         0.99631141
+ 1.         0.99928529 0.69597366 0.85280631 0.80008684 0.98115722
+ 0.49667687 0.77719448 0.99999997 0.99992459 0.99764312 0.99999982
+ 0.99381466 0.95729544 1.         1.         0.99998621 1.
+ 0.98837783 0.89322244 1.         1.         0.98612807 1.
+ 1.         0.9999999  1.         1.         0.88018235 1.
+ 1.         1.         1.         1.         0.99999927 1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         0.99999999 1.
+ 1.         1.         0.99999945 1.         1.         1.
+ 1.         1.         1.         1.         1.         0.99999265
+ 1.         0.99999866 1.         1.         1.         1.
+ 1.         0.99191509 1.         1.         1.         0.99996763
+ 1.         0.8145718  0.99999775 0.99999961 1.         0.99999997
+ 0.97146852 1.         0.97885316 1.         0.59823963 1.
+ 1.         0.99287648 0.53408892 0.70986003 0.95774023 0.89401091
+ 0.95995914 0.83966002 0.85765192 1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         0.99999567 0.73169494
+ 0.98599466 0.88083963 0.99999998 1.         0.99996094 1.
+ 0.99999984 0.98238586 0.99999978 0.99997381 0.99531897 0.99992948
+ 0.9997655  0.99999681 0.99999999 0.85693369 0.99956382 0.99972652
+ 0.99999975 0.53695727 1.         1.         0.89788782 0.99992853
+ 0.99987083 0.99299107 1.         0.98623448 1.         1.
+ 0.9999296  0.99999998 1.         1.         0.9999996  0.9999829
+ 0.99997525 0.99772913 0.99951731 1.         1.         0.98953111
+ 0.99999999 1.         0.98616813 0.99980942 0.55392866 0.92632318
+ 0.97110798 0.723221   0.71144368 0.9927337  0.99907809 0.98142289
+ 0.99999913 0.99999996 0.99999998 0.97745254 1.         0.99976727
+ 1.         0.99093385 0.99999643 0.99998567 1.         0.99997633
+ 0.71750264 0.99999999 0.95478674 0.90013016 1.         1.
+ 1.         1.         0.99912893 1.         1.         0.99994777
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         1.         0.9215912
+ 1.         1.         0.99980825 1.         1.         1.
+ 1.         1.         0.97029401 0.93437765 0.99363406 0.99927185
+ 1.         1.         1.         1.         1.         1.
+ 1.         0.99999991 1.         1.         1.        ]
+Accuracy:  0.8535564853556485
+---- echo: 4 ----
+log_likelihood = -417379.38642494177 per_frame_log_likelihood = -3.9085956494352367
+Saved to: data/4.mdl.pkl
+Predicted Words:  ['about', 'about', 'about', 'about', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'oily', 'oily', 'allow', 'oily', 'about', 'oily', 'along', 'allow', 'along', 'along', 'oily', 'oily', 'also', 'also', 'before', 'also', 'always', 'always', 'always', 'always', 'also', 'always', 'always', 'always', 'always', 'another', 'another', 'another', 'around', 'away', 'away', 'away', 'away', 'always', 'become', 'become', 'become', 'become', 'before', 'before', 'before', 'before', 'before', 'before', 'before', 'brother', 'brother', 'brother', 'brother', 'carry', 'carry', 'carry', 'carry', 'children', 'children', 'children', 'children', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'eating', 'eating', 'many', 'away', 'away', 'enjoy', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'about', 'enough', 'enough', 'even', 'even', 'even', 'even', 'even', 'even', 'very', 'carry', 'very', 'very', 'every', 'very', 'extra', 'extra', 'forces', 'forces', 'forces', 'government', 'government', 'government', 'greasy', 'greasy', 'greasy', 'greasy', 'greasy', 'into', 'money', 'into', 'into', 'into', 'into', 'into', 'many', 'many', 'many', 'many', 'many', 'many', 'many', 'money', 'money', 'money', 'money', 'many', 'money', 'money', 'money', 'morning', 'morning', 'morning', 'morning', 'never', 'over', 'never', 'over', 'never', 'often', 'before', 'often', 'often', 'often', 'often', 'oily', 'oily', 'always', 'table', 'oily', 'oily', 'oily', 'oily', 'oily', 'only', 'only', 'only', 'oily', 'only', 'only', 'only', 'only', 'only', 'only', 'open', 'open', 'open', 'order', 'order', 'order', 'order', 'over', 'other', 'other', 'over', 'over', 'over', 'over', 'away', 'over', 'over', 'people', 'people', 'people', 'people', 'people', 'problem', 'problem', 'problem', 'problem', 'problem', 'several', 'several', 'several', 'several', 'away', 'shellfish', 'shellfish', 'shellfish', 'sometimes', 'sometimes', 'sometimes', 'sometimes', 'study', 'system', 'system', 'sometimes', 'system', 'system', 'table', 'table', 'table', 'table', 'table', 'very', 'very', 'very', 'very', 'water', 'water', 'water', 'water', 'without', 'without', 'without', 'without', 'without', 'without', 'without']
+Actual Words:  ['about', 'about', 'about', 'about', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'allow', 'allow', 'allow', 'allow', 'allow', 'along', 'along', 'along', 'along', 'along', 'along', 'along', 'also', 'also', 'also', 'also', 'always', 'always', 'always', 'always', 'always', 'always', 'always', 'always', 'always', 'another', 'another', 'another', 'around', 'away', 'away', 'away', 'away', 'away', 'become', 'become', 'become', 'become', 'before', 'before', 'before', 'before', 'before', 'before', 'before', 'brother', 'brother', 'brother', 'brother', 'carry', 'carry', 'carry', 'carry', 'children', 'children', 'children', 'children', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'eating', 'eating', 'eating', 'enjoy', 'enjoy', 'enjoy', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'even', 'even', 'even', 'even', 'even', 'even', 'every', 'every', 'every', 'every', 'every', 'every', 'extra', 'extra', 'forces', 'forces', 'forces', 'government', 'government', 'government', 'greasy', 'greasy', 'greasy', 'greasy', 'greasy', 'into', 'into', 'into', 'into', 'into', 'into', 'into', 'many', 'many', 'many', 'many', 'many', 'many', 'many', 'money', 'money', 'money', 'money', 'money', 'money', 'money', 'money', 'morning', 'morning', 'morning', 'morning', 'never', 'never', 'never', 'never', 'never', 'often', 'often', 'often', 'often', 'often', 'often', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'open', 'open', 'open', 'order', 'order', 'order', 'order', 'other', 'other', 'other', 'over', 'over', 'over', 'over', 'over', 'over', 'over', 'people', 'people', 'people', 'people', 'people', 'problem', 'problem', 'problem', 'problem', 'problem', 'several', 'several', 'several', 'several', 'shellfish', 'shellfish', 'shellfish', 'shellfish', 'sometimes', 'sometimes', 'sometimes', 'sometimes', 'study', 'system', 'system', 'system', 'system', 'system', 'table', 'table', 'table', 'table', 'table', 'very', 'very', 'very', 'very', 'water', 'water', 'water', 'water', 'without', 'without', 'without', 'without', 'without', 'without', 'without']
+Confidence:  [0.9879372  1.         0.99999988 1.         0.99999999 0.99999404
+ 0.98295968 0.99999988 0.9362512  0.98420952 1.         0.9974939
+ 1.         0.99945001 0.71071408 0.95532767 0.50022921 0.99259651
+ 0.76194161 0.61164302 0.99999999 0.99838834 0.99507339 0.99999978
+ 0.99068121 0.98455326 1.         1.         0.99994352 1.
+ 0.99813167 0.89228221 1.         1.         0.94562764 1.
+ 1.         0.99999955 1.         1.         0.90418037 1.
+ 1.         1.         1.         1.         0.99999748 1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         0.99999913 1.         1.         1.
+ 1.         1.         1.         1.         1.         0.99999981
+ 1.         0.99999933 1.         1.         1.         1.
+ 1.         0.8968584  1.         1.         1.         0.9999988
+ 1.         0.99999486 0.99999933 0.99999999 1.         0.99999996
+ 0.94428263 1.         0.99915985 1.         0.56282432 1.
+ 1.         0.99989818 0.70406221 0.57996252 0.75306811 0.81112204
+ 0.91619866 0.99584037 0.72908483 1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         0.99999965 0.66503179
+ 0.99939117 0.88178877 1.         1.         0.99999839 1.
+ 0.99999968 0.98206446 0.99999998 0.99996175 0.99499425 0.99987816
+ 0.99973161 0.99999875 0.99999999 0.86662704 0.99951524 0.99912025
+ 0.99999968 0.63803191 1.         1.         0.99707281 0.99999953
+ 0.99999995 0.97084597 1.         0.97616632 1.         1.
+ 0.9992146  0.99999999 1.         1.         0.99999997 0.99999901
+ 0.99999486 0.96615652 0.99980577 1.         1.         0.98603579
+ 0.99999999 1.         0.99948361 0.99999263 0.88980693 0.94088032
+ 0.99823758 0.87514497 0.90737791 0.99941129 0.99996853 0.98931105
+ 0.99999956 0.99999996 0.99999999 0.96755243 1.         0.99983434
+ 1.         0.9924024  0.99999806 0.99999699 1.         0.99997909
+ 0.71293599 1.         0.97569676 0.78303235 1.         1.
+ 1.         1.         0.99960591 1.         1.         0.99995155
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 0.99999999 1.         0.99999996 1.         1.         1.
+ 1.         1.         0.97605956 0.94078464 0.99216766 0.9994188
+ 1.         1.         1.         1.         1.         1.
+ 1.         0.99999983 1.         1.         1.        ]
+Accuracy:  0.8661087866108786
+---- echo: 5 ----
+log_likelihood = -413964.44761204376 per_frame_log_likelihood = -3.8766160754042587
+Saved to: data/5.mdl.pkl
+Predicted Words:  ['about', 'about', 'about', 'about', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'oily', 'oily', 'allow', 'oily', 'about', 'oily', 'along', 'allow', 'along', 'along', 'oily', 'oily', 'also', 'also', 'before', 'also', 'always', 'always', 'always', 'always', 'children', 'always', 'always', 'always', 'always', 'another', 'another', 'another', 'around', 'away', 'away', 'away', 'away', 'always', 'become', 'become', 'become', 'become', 'before', 'before', 'before', 'before', 'children', 'before', 'before', 'brother', 'brother', 'brother', 'brother', 'carry', 'carry', 'carry', 'carry', 'children', 'children', 'away', 'children', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'eating', 'eating', 'oily', 'enjoy', 'away', 'enjoy', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'about', 'enough', 'enough', 'even', 'even', 'even', 'even', 'even', 'even', 'every', 'carry', 'very', 'very', 'every', 'very', 'extra', 'extra', 'forces', 'forces', 'forces', 'government', 'government', 'government', 'greasy', 'greasy', 'greasy', 'greasy', 'greasy', 'into', 'money', 'into', 'into', 'into', 'into', 'into', 'many', 'many', 'many', 'many', 'many', 'many', 'many', 'money', 'money', 'money', 'money', 'many', 'money', 'money', 'money', 'morning', 'morning', 'morning', 'morning', 'never', 'over', 'never', 'over', 'never', 'often', 'before', 'often', 'often', 'often', 'often', 'oily', 'study', 'oily', 'table', 'oily', 'oily', 'oily', 'oily', 'study', 'only', 'only', 'children', 'oily', 'only', 'only', 'children', 'only', 'only', 'only', 'open', 'children', 'open', 'order', 'order', 'order', 'order', 'over', 'other', 'other', 'over', 'over', 'over', 'over', 'away', 'over', 'over', 'extra', 'people', 'people', 'people', 'people', 'problem', 'problem', 'problem', 'problem', 'problem', 'several', 'several', 'several', 'several', 'away', 'shellfish', 'morning', 'away', 'sometimes', 'sometimes', 'sometimes', 'sometimes', 'study', 'system', 'system', 'system', 'system', 'system', 'table', 'table', 'table', 'table', 'table', 'very', 'very', 'very', 'very', 'water', 'water', 'water', 'water', 'without', 'without', 'without', 'without', 'without', 'without', 'without']
+Actual Words:  ['about', 'about', 'about', 'about', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'allow', 'allow', 'allow', 'allow', 'allow', 'along', 'along', 'along', 'along', 'along', 'along', 'along', 'also', 'also', 'also', 'also', 'always', 'always', 'always', 'always', 'always', 'always', 'always', 'always', 'always', 'another', 'another', 'another', 'around', 'away', 'away', 'away', 'away', 'away', 'become', 'become', 'become', 'become', 'before', 'before', 'before', 'before', 'before', 'before', 'before', 'brother', 'brother', 'brother', 'brother', 'carry', 'carry', 'carry', 'carry', 'children', 'children', 'children', 'children', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'eating', 'eating', 'eating', 'enjoy', 'enjoy', 'enjoy', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'even', 'even', 'even', 'even', 'even', 'even', 'every', 'every', 'every', 'every', 'every', 'every', 'extra', 'extra', 'forces', 'forces', 'forces', 'government', 'government', 'government', 'greasy', 'greasy', 'greasy', 'greasy', 'greasy', 'into', 'into', 'into', 'into', 'into', 'into', 'into', 'many', 'many', 'many', 'many', 'many', 'many', 'many', 'money', 'money', 'money', 'money', 'money', 'money', 'money', 'money', 'morning', 'morning', 'morning', 'morning', 'never', 'never', 'never', 'never', 'never', 'often', 'often', 'often', 'often', 'often', 'often', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'open', 'open', 'open', 'order', 'order', 'order', 'order', 'other', 'other', 'other', 'over', 'over', 'over', 'over', 'over', 'over', 'over', 'people', 'people', 'people', 'people', 'people', 'problem', 'problem', 'problem', 'problem', 'problem', 'several', 'several', 'several', 'several', 'shellfish', 'shellfish', 'shellfish', 'shellfish', 'sometimes', 'sometimes', 'sometimes', 'sometimes', 'study', 'system', 'system', 'system', 'system', 'system', 'table', 'table', 'table', 'table', 'table', 'very', 'very', 'very', 'very', 'water', 'water', 'water', 'water', 'without', 'without', 'without', 'without', 'without', 'without', 'without']
+Confidence:  [0.99041177 1.         0.99999989 1.         1.         0.999996
+ 0.98793044 0.99999979 0.99114221 0.99069768 1.         0.997608
+ 1.         0.9998247  0.60299302 0.98338465 0.71930551 0.99417225
+ 0.92146902 0.59680042 0.99999999 0.99357976 0.99533781 0.9999998
+ 0.98977644 0.98795825 1.         1.         0.99929618 1.
+ 0.99972315 0.9390093  1.         1.         1.         1.
+ 1.         0.9999985  1.         1.         0.99654801 1.
+ 1.         1.         1.         1.         0.99999551 1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         0.99999922 1.         1.         1.
+ 1.         1.         1.         1.         1.         0.99999999
+ 1.         0.99999953 1.         1.         1.         1.
+ 1.         0.39905562 1.         1.         1.         0.99999996
+ 1.         0.9999999  0.99999967 1.         1.         0.99999998
+ 0.92969011 1.         0.99993756 1.         0.91804052 1.
+ 1.         0.99999137 0.8772058  0.5342166  0.70626796 0.61372592
+ 0.62913456 0.99985045 0.51257287 1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         0.99999982 0.54400895
+ 0.9998399  0.99787077 1.         1.         0.99999995 1.
+ 0.99999966 0.98025016 1.         0.99995497 0.99465575 0.99983933
+ 0.99975565 0.9999992  1.         0.85181678 0.99966856 0.99723155
+ 0.99999993 0.78324628 1.         1.         0.99998914 0.99999997
+ 1.         0.84907098 1.         0.9536948  1.         1.
+ 0.99025931 1.         1.         1.         0.99999476 0.99999987
+ 1.         0.83979524 0.99744357 1.         1.         0.99864444
+ 0.99999999 1.         0.99998016 0.99999997 1.         0.94823627
+ 0.99991043 0.99841937 1.         0.99980291 0.99999816 0.99200387
+ 0.99999969 1.         1.         0.94974365 1.         0.99979292
+ 1.         0.99315336 0.99999851 0.99999934 1.         0.99997507
+ 0.67202561 1.         0.98592663 0.51855428 1.         1.
+ 1.         1.         0.99995148 1.         1.         0.99999994
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 0.99968299 1.         1.         1.         1.         1.
+ 1.         1.         0.98374014 0.95286414 0.99006585 0.99939342
+ 1.         1.         1.         1.         1.         1.
+ 1.         0.99999978 1.         1.         1.        ]
+Accuracy:  0.8410041841004184
+---- echo: 6 ----
+log_likelihood = -411566.8362067864 per_frame_log_likelihood = -3.854163376942327
+Saved to: data/6.mdl.pkl
+Predicted Words:  ['system', 'about', 'about', 'about', 'after', 'after', 'after', 'after', 'children', 'after', 'after', 'after', 'after', 'after', 'oily', 'oily', 'allow', 'oily', 'about', 'oily', 'along', 'allow', 'along', 'along', 'study', 'oily', 'also', 'into', 'before', 'also', 'always', 'always', 'about', 'always', 'extra', 'always', 'always', 'about', 'always', 'another', 'another', 'another', 'around', 'study', 'away', 'away', 'away', 'always', 'become', 'become', 'become', 'become', 'before', 'study', 'study', 'before', 'children', 'before', 'before', 'brother', 'brother', 'brother', 'brother', 'carry', 'carry', 'carry', 'carry', 'children', 'children', 'away', 'children', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'enjoy', 'eating', 'enjoy', 'away', 'away', 'away', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'about', 'enough', 'enjoy', 'enjoy', 'even', 'even', 'enjoy', 'enjoy', 'even', 'children', 'carry', 'every', 'every', 'every', 'every', 'extra', 'extra', 'forces', 'forces', 'forces', 'government', 'government', 'government', 'greasy', 'greasy', 'greasy', 'greasy', 'greasy', 'into', 'into', 'into', 'into', 'into', 'into', 'into', 'many', 'many', 'many', 'many', 'many', 'many', 'many', 'money', 'money', 'money', 'money', 'many', 'money', 'money', 'money', 'study', 'morning', 'morning', 'morning', 'never', 'over', 'never', 'system', 'never', 'children', 'before', 'often', 'children', 'often', 'often', 'oily', 'study', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'study', 'children', 'children', 'enjoy', 'oily', 'only', 'only', 'children', 'only', 'children', 'children', 'open', 'children', 'open', 'order', 'order', 'order', 'order', 'over', 'other', 'enjoy', 'over', 'over', 'over', 'over', 'away', 'only', 'children', 'extra', 'people', 'people', 'enjoy', 'people', 'problem', 'problem', 'problem', 'problem', 'problem', 'several', 'several', 'several', 'morning', 'away', 'morning', 'morning', 'away', 'enough', 'sometimes', 'sometimes', 'sometimes', 'study', 'system', 'system', 'system', 'system', 'enjoy', 'table', 'table', 'table', 'table', 'table', 'children', 'very', 'very', 'very', 'water', 'children', 'water', 'water', 'without', 'without', 'without', 'without', 'without', 'without', 'without']
+Actual Words:  ['about', 'about', 'about', 'about', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'allow', 'allow', 'allow', 'allow', 'allow', 'along', 'along', 'along', 'along', 'along', 'along', 'along', 'also', 'also', 'also', 'also', 'always', 'always', 'always', 'always', 'always', 'always', 'always', 'always', 'always', 'another', 'another', 'another', 'around', 'away', 'away', 'away', 'away', 'away', 'become', 'become', 'become', 'become', 'before', 'before', 'before', 'before', 'before', 'before', 'before', 'brother', 'brother', 'brother', 'brother', 'carry', 'carry', 'carry', 'carry', 'children', 'children', 'children', 'children', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'eating', 'eating', 'eating', 'enjoy', 'enjoy', 'enjoy', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'even', 'even', 'even', 'even', 'even', 'even', 'every', 'every', 'every', 'every', 'every', 'every', 'extra', 'extra', 'forces', 'forces', 'forces', 'government', 'government', 'government', 'greasy', 'greasy', 'greasy', 'greasy', 'greasy', 'into', 'into', 'into', 'into', 'into', 'into', 'into', 'many', 'many', 'many', 'many', 'many', 'many', 'many', 'money', 'money', 'money', 'money', 'money', 'money', 'money', 'money', 'morning', 'morning', 'morning', 'morning', 'never', 'never', 'never', 'never', 'never', 'often', 'often', 'often', 'often', 'often', 'often', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'open', 'open', 'open', 'order', 'order', 'order', 'order', 'other', 'other', 'other', 'over', 'over', 'over', 'over', 'over', 'over', 'over', 'people', 'people', 'people', 'people', 'people', 'problem', 'problem', 'problem', 'problem', 'problem', 'several', 'several', 'several', 'several', 'shellfish', 'shellfish', 'shellfish', 'shellfish', 'sometimes', 'sometimes', 'sometimes', 'sometimes', 'study', 'system', 'system', 'system', 'system', 'system', 'table', 'table', 'table', 'table', 'table', 'very', 'very', 'very', 'very', 'water', 'water', 'water', 'water', 'without', 'without', 'without', 'without', 'without', 'without', 'without']
+Confidence:  [1.         1.         0.99999985 1.         1.         0.99999537
+ 0.98850635 0.99999978 1.         0.99400615 1.         0.99698357
+ 1.         0.99985915 0.46246449 0.84133581 0.85312017 0.99472946
+ 0.96106752 0.68650607 0.99999999 0.98694244 0.99592266 0.99999975
+ 1.         0.99265663 1.         1.         0.95168381 1.
+ 0.99994365 0.96205404 1.         1.         1.         1.
+ 1.         1.         1.         1.         0.99962429 1.
+ 1.         1.         1.         1.         0.99999355 1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         0.99999935 1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         0.99999947 1.         1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         0.99999986 1.         1.         1.
+ 0.93963416 1.         1.         1.         0.99371166 1.
+ 1.         1.         0.93581978 1.         0.69743007 0.65474761
+ 0.78884765 0.99992153 0.74935449 1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         0.99999972 0.62883063
+ 0.99986939 0.99992046 1.         1.         0.99999999 1.
+ 0.99999968 0.97627829 1.         0.9999497  0.99394444 0.99979697
+ 0.9997659  0.99999924 1.         0.82843176 0.99979153 0.99394392
+ 0.99999996 0.85071608 1.         1.         0.99999999 0.99999999
+ 1.         0.65011844 1.         1.         1.         1.
+ 0.87582541 1.         1.         1.         0.99999881 0.99999998
+ 1.         0.9917857  0.85618    1.         1.         0.99914023
+ 1.         1.         1.         1.         1.         0.94869635
+ 0.99999456 0.99992148 1.         0.99992027 1.         1.
+ 0.99999979 1.         1.         0.91575937 1.         0.99982639
+ 1.         0.99286008 0.99999894 1.         1.         0.99996172
+ 0.64979346 1.         0.95973976 0.42771361 1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         0.96084191 0.98863327 0.99923236
+ 1.         1.         1.         1.         1.         1.
+ 1.         0.99999979 1.         1.         1.        ]
+Accuracy:  0.7238493723849372
+---- echo: 7 ----
+log_likelihood = -409712.57699040597 per_frame_log_likelihood = -3.83679896043832
+Saved to: data/7.mdl.pkl
+Predicted Words:  ['system', 'about', 'about', 'system', 'after', 'after', 'after', 'after', 'children', 'after', 'after', 'after', 'after', 'after', 'allow', 'along', 'allow', 'system', 'about', 'study', 'along', 'enjoy', 'along', 'along', 'study', 'dinner', 'enjoy', 'into', 'after', 'system', 'extra', 'about', 'about', 'dinner', 'extra', 'about', 'about', 'about', 'shellfish', 'another', 'another', 'another', 'around', 'shellfish', 'away', 'children', 'enjoy', 'always', 'become', 'become', 'become', 'enjoy', 'before', 'study', 'away', 'before', 'children', 'extra', 'before', 'brother', 'brother', 'brother', 'brother', 'carry', 'carry', 'carry', 'carry', 'away', 'children', 'away', 'away', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'enjoy', 'enjoy', 'enjoy', 'away', 'away', 'away', 'enough', 'enough', 'enjoy', 'enough', 'enjoy', 'enough', 'enjoy', 'about', 'enough', 'enjoy', 'enjoy', 'even', 'even', 'enjoy', 'enjoy', 'even', 'enjoy', 'carry', 'every', 'every', 'every', 'every', 'extra', 'extra', 'forces', 'enough', 'around', 'government', 'government', 'enjoy', 'study', 'study', 'before', 'greasy', 'always', 'into', 'into', 'enjoy', 'into', 'into', 'into', 'into', 'many', 'many', 'many', 'many', 'many', 'many', 'many', 'extra', 'money', 'enjoy', 'extra', 'enjoy', 'money', 'money', 'money', 'study', 'morning', 'morning', 'morning', 'never', 'never', 'never', 'children', 'never', 'children', 'often', 'often', 'shellfish', 'enjoy', 'often', 'enjoy', 'enjoy', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'study', 'extra', 'enjoy', 'enjoy', 'forces', 'enjoy', 'enjoy', 'enjoy', 'extra', 'extra', 'extra', 'open', 'enjoy', 'open', 'shellfish', 'shellfish', 'order', 'order', 'over', 'other', 'enjoy', 'system', 'children', 'enjoy', 'system', 'away', 'only', 'children', 'extra', 'enjoy', 'people', 'enjoy', 'people', 'problem', 'problem', 'problem', 'forces', 'problem', 'several', 'several', 'several', 'morning', 'extra', 'morning', 'morning', 'about', 'enough', 'sometimes', 'sometimes', 'people', 'study', 'system', 'system', 'system', 'system', 'enjoy', 'table', 'table', 'table', 'table', 'table', 'children', 'very', 'very', 'very', 'water', 'shellfish', 'shellfish', 'extra', 'without', 'without', 'without', 'without', 'without', 'without', 'without']
+Actual Words:  ['about', 'about', 'about', 'about', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'after', 'allow', 'allow', 'allow', 'allow', 'allow', 'along', 'along', 'along', 'along', 'along', 'along', 'along', 'also', 'also', 'also', 'also', 'always', 'always', 'always', 'always', 'always', 'always', 'always', 'always', 'always', 'another', 'another', 'another', 'around', 'away', 'away', 'away', 'away', 'away', 'become', 'become', 'become', 'become', 'before', 'before', 'before', 'before', 'before', 'before', 'before', 'brother', 'brother', 'brother', 'brother', 'carry', 'carry', 'carry', 'carry', 'children', 'children', 'children', 'children', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'dinner', 'eating', 'eating', 'eating', 'enjoy', 'enjoy', 'enjoy', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'enough', 'even', 'even', 'even', 'even', 'even', 'even', 'every', 'every', 'every', 'every', 'every', 'every', 'extra', 'extra', 'forces', 'forces', 'forces', 'government', 'government', 'government', 'greasy', 'greasy', 'greasy', 'greasy', 'greasy', 'into', 'into', 'into', 'into', 'into', 'into', 'into', 'many', 'many', 'many', 'many', 'many', 'many', 'many', 'money', 'money', 'money', 'money', 'money', 'money', 'money', 'money', 'morning', 'morning', 'morning', 'morning', 'never', 'never', 'never', 'never', 'never', 'often', 'often', 'often', 'often', 'often', 'often', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'oily', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'only', 'open', 'open', 'open', 'order', 'order', 'order', 'order', 'other', 'other', 'other', 'over', 'over', 'over', 'over', 'over', 'over', 'over', 'people', 'people', 'people', 'people', 'people', 'problem', 'problem', 'problem', 'problem', 'problem', 'several', 'several', 'several', 'several', 'shellfish', 'shellfish', 'shellfish', 'shellfish', 'sometimes', 'sometimes', 'sometimes', 'sometimes', 'study', 'system', 'system', 'system', 'system', 'system', 'table', 'table', 'table', 'table', 'table', 'very', 'very', 'very', 'very', 'water', 'water', 'water', 'water', 'without', 'without', 'without', 'without', 'without', 'without', 'without']
+Confidence:  [1.         1.         0.99999978 1.         1.         0.99999531
+ 0.98887653 0.9999998  1.         0.99321446 1.         0.99574726
+ 1.         0.99986483 0.41186238 0.56995507 0.93083804 1.
+ 0.96934722 1.         0.99999998 1.         0.99680745 0.99999959
+ 1.         1.         1.         1.         0.66781342 1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         0.99993139 1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         0.99999947 1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         0.99999932 1.         1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         0.99999995 1.         1.         1.
+ 0.95205306 1.         1.         1.         0.99523469 1.
+ 1.         1.         0.9659758  1.         0.48888197 0.85677957
+ 0.91981208 0.99985143 0.90734598 1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         0.99999947 0.80278775
+ 1.         0.9999898  1.         1.         0.99999999 1.
+ 0.99999973 0.97298286 1.         0.99994695 0.9933664  0.99977441
+ 1.         0.9999992  1.         1.         1.         0.99063427
+ 0.99999996 0.87623531 1.         1.         1.         1.
+ 1.         0.61084891 1.         1.         1.         1.
+ 0.8165765  1.         1.         1.         0.9999998  1.
+ 1.         0.99211275 0.99262876 1.         1.         0.99921803
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 0.99999983 1.         1.         1.         1.         0.99988897
+ 1.         0.99234095 0.99999912 1.         1.         1.
+ 1.         1.         0.80653386 0.5174774  1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         1.         1.         1.
+ 1.         1.         1.         0.96559676 0.98858171 0.99900992
+ 1.         1.         1.         1.         1.         1.
+ 1.         0.99999979 1.         1.         1.        ]
+Accuracy:  0.5439330543933054

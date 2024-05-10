@@ -249,10 +249,16 @@ class Word_Recognizer:
     def update_letter_counters(self, scr, word_hmm):
         # Update self.letter_id2hmm based on the counts from 
         # word_hmm
+
+        #print("scr is ---------", scr)
+        #print("word_hmm is ---------", word_hmm)
+
         self.letter_id2hmm[self.noise_id].set_counters(word_hmm.output_arc_counts[:, :5, :5], word_hmm.output_arc_counts_null)
         self.letter_id2hmm[self.noise_id].set_counters(word_hmm.output_arc_counts[:, -5:, -5:], word_hmm.output_arc_counts_null)    
         for i, letter_id in enumerate(scr):
             self.letter_id2hmm[letter_id].set_counters(word_hmm.output_arc_counts[:, 5+i*3:8+i*3, 5+i*3:8+i*3],word_hmm.output_arc_counts_null)
+
+
 
     def train(self, num_epochs=1):
         # sort trnlbls, endpts and trnscr such that the same word appear next to each other
@@ -392,6 +398,7 @@ class Word_Recognizer:
         for index in results:
             predicted_words.append(id2words[index])
 
+        
         # Calculate the maximum likelihood score for each prediction
         max_likelihood_scores = word_likelihoods.max(axis=0)
 
@@ -411,6 +418,9 @@ class Word_Recognizer:
     def test_2(self,trnlbls_sorted_2,trnscr_sorted_2):
         # Compute the word likelihood for each dev samples 
         # just devlabls
+        accuracy = []
+        la = None
+
         id2words = dict({i: w for i, w in enumerate(self.train_words)})
         words2id = dict({w: i for i, w in id2words.items()})
 
@@ -432,7 +442,19 @@ class Word_Recognizer:
         predicted_words = []
         for index in results:
             predicted_words.append(id2words[index])
+         # Calculate the maximum likelihood score for each prediction
+        max_likelihood_scores = word_likelihoods.max(axis=0)
 
+        # Calculate the logarithm of the sum of exponentials of likelihood scores
+        log_sum_exp_scores = logsumexp(word_likelihoods, axis=0)
+
+        # Calculate the confidence scores for each prediction
+        confidence = np.exp(max_likelihood_scores - log_sum_exp_scores)
+
+        # Replace any NaN confidence scores with 1.0
+        confidence[np.isnan(confidence)] = 1.0
+        
+        
         # Preparing ground truth
         actual_words = []
         for sequence in trnscr_sorted_2:
@@ -446,8 +468,20 @@ class Word_Recognizer:
         for i in range(len(predicted_words)):
             if predicted_words[i] == actual_words[i]:
                 correct_predictions += 1
-        accuracy = correct_predictions / len(predicted_words)
+        caccuracy = correct_predictions / len(predicted_words)
+        accuracy.append(caccuracy)
+            
+        
+
+        if la is not None and caccuracy < la:
+            print("Accuracy decreased from the last epoch. Stopping further processing.")
+            return
+        la = caccuracy
+        print("Predicted Words: ", predicted_words)
+        print("Actual Words: ", actual_words)
+        print("Confidence: ", confidence)
         print("Accuracy: ", accuracy)
+
 
     def save(self, i_epoch):
         fn = os.path.join(data_dir, "%d.mdl.pkl" % i_epoch)
@@ -470,11 +504,10 @@ class Word_Recognizer:
         plt.grid(True)
         plt.savefig("log_likelihood.png")
         
-
 def main():
-    n_epochs = 10
+    n_epochs = 8
     wr = Word_Recognizer()
-    wr.train(num_epochs=n_epochs)
+    wr.train_2(num_epochs=n_epochs)
     wr.plot_log_likelihood()
 
 if __name__ == '__main__':
